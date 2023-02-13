@@ -1,15 +1,10 @@
-import './App.css';
-import {NavBar} from './navBar/NavBar'
-import{Search} from './weather/search/search'
-
+import "./App.css";
+import { NavBar } from "./navBar/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      {/* <Widget/> */}
-      <div className='Search'><Search/></div>
-      
+      <NavBar />
     </div>
   );
 }
