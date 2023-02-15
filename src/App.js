@@ -1,10 +1,10 @@
 import "./App.css";
-import { NavBar } from "./navBar/NavBar";
+import { Navbar1 } from "./navBar/Navbar1";
 
-function App() {
+ const App =() =>{
   return (
     <div className="App">
-      <NavBar />
+      <Navbar1 />
     </div>
   );
 }
